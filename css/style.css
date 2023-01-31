@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    text-align: center;
+    background-color:#f0efe9;
+}
+.header {
+    font-family: 'Gaegu', cursive;
+    background-color: #F0DBDB;
+    padding: 100px;
+}
+h1 {
+    color: #FEFCF3;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 60px;
+    line-height: 1.8px;
+}
+.slogan {
+    color: #DBA39A;
+    font-size: 30px;
+}
+.headshot {
+    border-radius: 100%;
+}
+h3 {
+    font-size: 22px;
+}
+h2 {
+    font-size: 20px;
+}
+.plant1 {
+    position: absolute;
+    transform: rotate(35deg);
+    top: 0px;
+    right: 100px;
+}
+.plant2 {
+    position: absolute;
+    transform: rotate(304deg);
+    bottom: 365px;
+    left: 100px;
+}
+.content {
+    font-family: 'Lato', sans-serif;
+    height: auto;
+    width: auto;
+    padding: 13px 0 13px 0;
+}
+.tech {
+    display: inline-block;
+}
+.comp {
+    float: left;
+    width: 40%;
+}
+.lang {
+    float: right;
+    width: 60%;
+}
+.leadership {
+    display: inline-block;
+}
+.mnt {
+    float: left;
+    width: 40%;
+    position: relative;
+    left: 8%;
+}
+.roles {
+    float: right;
+    width: 60%;
+    position: relative;
+    right: 6%;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    position: relative;
+    right: 6%;
+}
+.skills {
+    display: inline-block;
+}
+.bulb {
+    float: left;
+    width: 40%;
+}
+.list {
+    float: right;
+    width: 60%;
+}
+a:link, a:active {
+    color: #6f8dee;
+    text-decoration: none;
+}
+a:hover {
+    color: #193eb8;
+}
+a:visited {
+    color: #671c90;
+    border: 3px solid #eec0b9;
+}
+a.connect:link {
+    background-color: #f0efe9;
+    border: 3px solid #eec0b9;
+    border-radius: 20px; 
+    padding: 10px;
+}
+a.connect:hover, a.connect:active {
+    background-color: #eec0b9;
+}
+hr {
+    border: 1px dashed #DBA39A;
+    width:50%;
+    margin:0 auto;
+}
+.end {
+    background-color: #F0DBDB;
+    padding: 0px 0 10px 0;
+    height: auto;
+}
+.bottom {
+    width: 100%;
+}
+.info {
+    padding: 20px;
+}
+.contacthr {
+    width: 80%;
+}
+.contact {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 20px;
+    min-height: 100vh;
+}
+.container {
+    padding: 20px 0  0;
+}
+.card {
+    background-color: #F0DBDB;    
+    margin: auto;
+    padding: 40px 20px;
+    box-shadow: 4px 5px 8px 0 rgba(0,0,0,0.3);
+    border-radius: 50px; 
+    width: 500px;
+}
+input, textarea {
+    border-radius: 10px; 
+}
+.submit {
+    padding: 5px 8px 5px 8px;
+}
+
